@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -14,8 +13,7 @@ header {
 }
 
 nav {
-    display: flex;
-    justify-content: center;
+    margin-top: 10px;
 }
 
 nav a {
@@ -29,46 +27,17 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Main Section */
-main {
-    padding: 20px;
+p {
+    font-size: 20px;
+    margin-top: 20px;
 }
-
-.intro {
-    margin-bottom: 20px;
-}
-
-.models-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .model {
-    margin: 20px;
     text-align: center;
+    margin: 20px;
 }
 
 .model img {
     width: 200px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.model h2 {
-    margin: 10px 0;
-    font-size: 18px;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-    .model img {
-        width: 100%;
-    }
-
-    nav a {
-        display: block;
-        margin: 10px 0;
-    }
 }
