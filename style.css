@@ -31,3 +31,13 @@ p {
     font-size: 20px;
     margin-top: 20px;
 }
+.model {
+    text-align: center;
+    margin: 20px;
+}
+
+.model img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
